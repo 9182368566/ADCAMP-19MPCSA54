@@ -1,0 +1,47 @@
+ Harshad number or not
+ example-1
+ public class Main
+{  
+public static void main(String[] madhu)
+ {  
+ int num=156;  
+ int sum=0,rem=0,n;
+ n=num;  
+ while(num > 0)
+ {  
+ rem=num%10;  
+ sum+=rem;  
+ num/=10;  
+}
+ if(n%sum == 0)  
+ System.out.println(n+"is a harshad number");  
+ else  
+ System.out.println(n+"is not a harshad number");  
+ }
+}  
+output:156is a harshad number
+
+
+
+
+example-2
+public class Main
+{  
+public static void main(String[] madhu)
+ {  
+ int num=22;  
+ int sum=0,rem=0,n;
+ n=num;  
+ while(num > 0)
+ {  
+ rem=num%10;  
+ sum+=rem;  
+ num/=10;  
+}
+ if(n%sum == 0)  
+ System.out.println(n+"is a harshad number");  
+ else  
+ System.out.println(n+"is not a harshad number");  
+ }
+}  
+output:22is not a harshad number
