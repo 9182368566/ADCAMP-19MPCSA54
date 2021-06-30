@@ -1,0 +1,26 @@
+ example-1
+ public class  Main
+{  
+public static void main(String[]madhu)
+{  
+String s1="16719 ";  
+String replaceString=s1.replace('1','8');
+System.out.println(replaceString);  
+}   
+}  
+output: 86789
+
+
+
+example-2
+public class  Main
+{  
+public static void main(String[]madhu)
+{  
+String s1="234278 ";  
+String replaceString=s1.replace('2','5');
+System.out.println(replaceString);  
+}
+    
+}  
+output: 534578
