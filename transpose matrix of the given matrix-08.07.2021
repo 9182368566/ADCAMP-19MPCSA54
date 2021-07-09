@@ -1,4 +1,4 @@
-public class MatrixWithoutTranspose{  
+public class TransposeMatrixOfTheGivenMatrix{  
 public static void main(String args[]){  
 
 int a[][]={{21,36,14},{12,34,63},{73,49,51}};    
