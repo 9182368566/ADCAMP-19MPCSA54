@@ -1,0 +1,28 @@
+public class ColumnSum
+ {
+    public static void main(String args[])
+
+     {
+      int a[][]= { {23,45,56},{41,59,60},{72,86,98} };
+
+
+
+      for(int i=0; i<3 ;i++)
+      {
+       int sum=0;
+       for(int j=0;j<3;j++)
+       {
+
+       sum+=a[j][i];
+       }
+
+       System.out.println("Sum of column" + (i+1) + " is:" +sum);
+      }
+   }
+}
+
+
+output:
+Sum of column1 is:136
+Sum of column2 is:190
+Sum of column3 is:214
